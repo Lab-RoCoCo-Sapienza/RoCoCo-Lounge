@@ -2,9 +2,9 @@ Welcome to the RoCoCo Lounge
 =========================================
 "What would you like to order?"
 
-.. image:: assets/lounge.png
+.. image:: docs/assets/lounge.png
    :alt: RoCoCo Lounge Logo
-   :width: 200px
+   :width: 512px
    :align: center
 
 Contents:
