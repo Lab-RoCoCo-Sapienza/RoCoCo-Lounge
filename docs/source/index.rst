@@ -1,8 +1,13 @@
 Welcome to the RoCoCo Lounge
-"What would you like to order?"
 =========================================
+"What would you like to order?"
 
 Contents:
+
+.. image:: assets/lounge.png
+   :alt: RoCoCo Lounge Logo
+   :width: 200px
+   :align: center
 
 .. toctree::
    :maxdepth: 2
