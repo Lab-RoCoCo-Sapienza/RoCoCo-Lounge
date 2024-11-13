@@ -2,10 +2,8 @@ Computational Resources
 =======================
 
 .. list-table:: Specifications of the Lab RoCoCo Resources
-.. list-table:: Available Resources
 :header-rows: 1
 :widths: 15 10 10 10 10 10 10 15
-
 * - Resource Name
   - CPU
   - GPU
