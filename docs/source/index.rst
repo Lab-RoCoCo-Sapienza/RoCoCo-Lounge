@@ -11,6 +11,8 @@ Welcome to the RoCoCo Lounge
 
 
 
+
+
 .. toctree::
    :maxdepth: 2
    :caption: Table of Contents
@@ -20,10 +22,3 @@ Welcome to the RoCoCo Lounge
    resources
    usage
    api
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
