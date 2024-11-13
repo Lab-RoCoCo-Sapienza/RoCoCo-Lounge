@@ -6,7 +6,7 @@ Welcome to the RoCoCo Lounge
 
 .. image:: ../assets/lounge.png
    :alt: RoCoCo Lounge Logo
-   :width: 512px
+   :width: 1024px
    :align: center
 
 
