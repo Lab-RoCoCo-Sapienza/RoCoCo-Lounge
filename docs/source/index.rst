@@ -4,7 +4,7 @@ Welcome to the RoCoCo Lounge
 ==================================================
 
 
-.. image:: ../assets/lounge.png
+.. image:: ../assets/logo.png
    :alt: RoCoCo Lounge Logo
    :width: 1024px
    :align: center
