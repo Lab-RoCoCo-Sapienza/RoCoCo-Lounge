@@ -1,7 +1,8 @@
 Computational Resources
 =======================
+Specifications of the Lab RoCoCo Resources
 
-.. list-table:: Specifications of the Lab RoCoCo Resources
+.. list-table::
    :header-rows: 1
    :widths: 15 10 10 10 10 10 10 15
 
@@ -12,7 +13,7 @@ Computational Resources
      - VRAM
      - SSD
      - HDD
-     - Other Specifications
+     - IP Address
    * - Rum
      - Intel Xeon 16-core
      - NVIDIA RTX 3090

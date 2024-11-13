@@ -9,6 +9,8 @@ Welcome to the RoCoCo Lounge
    :width: 512px
    :align: center
 
+
+
 .. toctree::
    :maxdepth: 2
    :caption: Table of Contents
