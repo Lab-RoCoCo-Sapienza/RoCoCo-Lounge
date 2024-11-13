@@ -15,38 +15,38 @@ Specifications of the Lab RoCoCo Resources
      - HDD
      - IP Address
    * - Rum
-     - Intel Xeon 16-core
-     - NVIDIA RTX 3090
-     - 128 GB
-     - 24 GB
-     - 1 TB
-     - 2 TB
-     - High-speed network
-   * - Vodka
-     - Intel Core i9 10-core
-     - NVIDIA RTX A5000
+     - Intel i9-10th
+     - NVIDIA RTX 2080
      - 64 GB
      - 16 GB
-     - 2 TB
+     - 1 TB
      - 4 TB
-     - Dual 10 Gbps network
+     - ...
+   * - Vodka
+     - Intel i9-10th
+     - NVIDIA RTX 2080
+     - 64 GB
+     - 16 GB
+     - 1 TB
+     - 4 TB
+     - ...
    * - Tequila
-     - AMD EPYC 32-core
-     - NVIDIA A100
-     - 256 GB
-     - 40 GB
+     - Intel i9-11th
+     - NVIDIA RTX 3070
+     - 128 GB
+     - ? GB
      - 1 TB NVMe
-     - 8 TB
-     - Remote access enabled
+     - 2 TB
+     - ...
    * - Absinthe
-     - Intel Xeon 24-core
-     - NVIDIA Titan V
+     - Intel i7
+     - 2xNVIDIA RTX 1070
      - 128 GB
      - 12 GB
      - 2 TB SSD
      - 4 TB HDD
      - GPU virtualization supported
-   * - Whiskey
+   * - Gin
      - AMD Threadripper 16-core
      - NVIDIA Quadro P6000
      - 64 GB

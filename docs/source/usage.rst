@@ -1,34 +1,49 @@
-Usage
-=====
+Server Usage Instructions
+=========================
 
-.. _installation:
+This document provides the configuration details for three servers available to PhD students, along with usage instructions and guidelines.
 
-Installation
-------------
+Contacts
+--------
+- **Professor**: iocchi@diag.uniroma1.it
+- **Admins**: suriani@diag.uniroma1.it, argenziano@diag.uniroma1.it
 
-To use Lumache, first install it using pip:
+Server Location: Room B120
 
-.. code-block:: console
+Resources
+---------
+- **Telegram Group**: TO BE DEFINED
+- **Booking Calendar**: TO BE DEFINED
 
-   (.venv) $ pip install lumache
+Servers IP Addresses:
+to be defined
 
-Creating recipes
-----------------
+Rules
+-----
+Currently, there are no strict rules, and the goal is to foster a cooperative environment. Key guidelines include:
 
-To retrieve a list of random ingredients,
-you can use the ``lumache.get_random_ingredients()`` function:
+- **Cordiality and Respect**: Maintain a positive and respectful atmosphere for shared usage.
+- **Experiment Continuity**: Avoid interrupting another user's experiment, even if it is outside the booking schedule. Always communicate via the Telegram group if there's an issue.
+- **Conflict Resolution**: In case of a scheduling conflict, attempt to resolve it through the Telegram group before taking any actions.
 
-.. autofunction:: lumache.get_random_ingredients
+Guide
+-----
+The initial setup includes two one-time steps:
 
-The ``kind`` parameter should be either ``"meat"``, ``"fish"``,
-or ``"veggies"``. Otherwise, :py:func:`lumache.get_random_ingredients`
-will raise an exception.
+1. **Join the Telegram Group**: Use the following link to join: TO BE DEFINED
 
-.. autoexception:: lumache.InvalidKindError
+2. **Request Access**: TO BE DEFINED
 
-For example:
+Logging In
+----------
+After your account is created and a reservation has been made on the calendar, follow these steps to access the server:
 
->>> import lumache
->>> lumache.get_random_ingredients()
-['shells', 'gorgonzola', 'parsley']
+1. **Log In**: Ensure no one else is using the server at your scheduled time, even if it is outside the booking.
 
+2. **Check GPU Usage**: Use the following commands to check GPU and server load:
+   - `nvidia-smi`
+   - `htop`
+
+3. **Login Details**: Use the following format for your login:
+   - **Username**: `namesurname@ipServer`
+   - **Port**: 22
