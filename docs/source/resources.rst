@@ -2,9 +2,41 @@ Resources
 ======================
 Specifications of the Lab RoCoCo Training Resources
 
+Resources for Proofing
+----------------------
+Specifications of the Lab RoCoCo Proofing Resources
+
+.. list-table::
+   :header-rows: 1
+   :widths: 15 10 10 10 10 10 10 15
+
+   * - Resource Name
+     - IP Address
+     - CPU
+     - GPU
+     - RAM
+     - VRAM
+     - SSD
+     - HDD
+   * - Rum
+     - 
+     - 
+     - 
+     - 
+     - 
+     - 
+     - 
+   * - Gin
+     - 
+     - 
+     - 
+     - 
+     - 
+     - 
+     - 
+
 Resources for Training
 ----------------------
-
 .. list-table::
    :header-rows: 1
    :widths: 15 10 10 10 10 10 10 15
@@ -34,40 +66,6 @@ Resources for Training
      - 512 GB
      - 6 TB
    * - Tequila
-     - 
-     - 
-     - 
-     - 
-     - 
-     - 
-     - 
-
-Resources for Proofing
-----------------------
-
-Specifications of the Lab RoCoCo Proofing Resources
-
-.. list-table::
-   :header-rows: 1
-   :widths: 15 10 10 10 10 10 10 15
-
-   * - Resource Name
-     - IP Address
-     - CPU
-     - GPU
-     - RAM
-     - VRAM
-     - SSD
-     - HDD
-   * - Rum
-     - 
-     - 
-     - 
-     - 
-     - 
-     - 
-     - 
-   * - Gin
      - 
      - 
      - 

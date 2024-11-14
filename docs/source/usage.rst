@@ -1,6 +1,5 @@
 Server Usage Instructions
 =========================
-
 This document provides the configuration details to accessing servers available to Lab RoCoCo's PhD students, along with usage instructions and guidelines.
 
 Resources
