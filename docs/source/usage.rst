@@ -30,18 +30,30 @@ Policy
 
 Logging In
 ----------
-After that a reservation has been made on the calendar, follow these steps to access the server:
+
+After a reservation has been made on the calendar, follow these steps to access the server:
 
 1. **Log In**: Connect via SSH using the following command:
-   - ssh guest@ipServer
-   - **Password**: written inside the LabRoCoCo's Google Calendar description. 
+
+   .. code-block:: bash
+
+      ssh guest@ipServer
+
+   - **Password**: written inside the LabRoCoCo’s Google Calendar description.
 
 2. **Check GPU Usage**: Use the following commands to check GPU and server load:
-   - nvidia-smi
-   - htop
 
-3. **Workspace Directory**: Create a workspace directory for your experiments. This directory will be then mounted and mapped by you to your Docker container workspace dir.
-   - mkdir /home/guest/SURNAME
+   .. code-block:: bash
+
+      nvidia-smi
+      htop
+
+3. **Workspace Directory**: Create a workspace directory for your experiments. This directory will then be mounted and mapped by you to your Docker container workspace directory.
+
+   .. code-block:: bash
+
+      mkdir /home/guest/SURNAME
+
 
 Contacts
 --------
