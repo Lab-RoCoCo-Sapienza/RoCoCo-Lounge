@@ -1,6 +1,9 @@
-Resources for Training
+Resources 
 ======================
 Specifications of the Lab RoCoCo Training Resources
+
+Resources for Training
+----------------------
 
 .. list-table::
    :header-rows: 1
@@ -40,7 +43,8 @@ Specifications of the Lab RoCoCo Training Resources
      - 
 
 Resources for Proofing
-======================
+----------------------
+
 Specifications of the Lab RoCoCo Proofing Resources
 
 .. list-table::
