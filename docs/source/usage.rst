@@ -12,19 +12,17 @@ Server Location: Room B120
 
 Resources
 ---------
-- **Telegram Group**: TO BE DEFINED
-- **Booking Calendar**: TO BE DEFINED
-
-Servers IP Addresses:
-to be defined
+- **Booking Calendar**: The Google Calendar to reserve the machines is available to all the users of the labrococo@diag.uniroma1.it group.
+- **Servers IP Addresses**: `Resources <https://rococo-lounge.readthedocs.io/en/latest/resources.html>`_
+ 
 
 Rules
 -----
 Currently, there are no strict rules, and the goal is to foster a cooperative environment. Key guidelines include:
 
 - **Cordiality and Respect**: Maintain a positive and respectful atmosphere for shared usage.
-- **Experiment Continuity**: Avoid interrupting another user's experiment, even if it is outside the booking schedule. Always communicate via the Telegram group if there's an issue.
-- **Conflict Resolution**: In case of a scheduling conflict, attempt to resolve it through the Telegram group before taking any actions.
+- **Experiment Continuity**: Avoid interrupting another user's experiment, even if it is outside the booking schedule. Always communicate via labrococo Google group if there's an issue.
+- **Conflict Resolution**: In case of a scheduling conflict, attempt to resolve it privately before taking any actions.
 
 Guide
 -----
