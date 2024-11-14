@@ -37,7 +37,7 @@ After a reservation has been made on the calendar, follow these steps to access 
 
    .. code-block:: bash
 
-      ssh guest@ipServer
+      ssh guest@<ipServer>
 
    - **Password**: written inside the LabRoCoCo’s Google Calendar description.
 
