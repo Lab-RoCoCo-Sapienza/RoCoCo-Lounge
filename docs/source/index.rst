@@ -21,4 +21,3 @@ Welcome to the RoCoCo Lounge
    installation
    resources
    usage
-   api
