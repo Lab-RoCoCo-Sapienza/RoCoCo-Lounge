@@ -1,6 +1,6 @@
 Resources 
 ======================
-Specifications of the Lab RoCoCo Training Resources
+All the resources available to the Lab RoCoCo's PhD students are listed below.
 
 Resources for Proofing
 ----------------------
@@ -36,6 +36,8 @@ Specifications of the Lab RoCoCo Proofing Resources
      - 
 
 Resources for Training
+Specifications of the Lab RoCoCo Training Resources
+
 ----------------------
 .. list-table::
    :header-rows: 1
