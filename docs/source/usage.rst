@@ -1,14 +1,12 @@
 Server Usage Instructions
 =========================
 
-This document provides the configuration details for three servers available to PhD students, along with usage instructions and guidelines.
+This document provides the configuration details to accessing servers available to Lab RoCoCo's PhD students, along with usage instructions and guidelines.
 
 Contacts
 --------
 - **Professor**: iocchi@diag.uniroma1.it
 - **Admins**: suriani@diag.uniroma1.it, argenziano@diag.uniroma1.it
-
-Server Location: Room B120
 
 Resources
 ---------
