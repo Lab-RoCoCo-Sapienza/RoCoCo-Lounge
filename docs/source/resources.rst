@@ -23,13 +23,13 @@ Specifications of the Lab RoCoCo Training Resources
      - 1 TB
      - 4 TB
    * - Vodka
-     - 
-     - 
-     - 
-     - 
-     - 
-     - 
-     - 
+     - 192.168.2.37
+     - Intel i9-9900K @ 3.6 GHz x 16
+     - NVIDIA GeForce RTX 2080
+     - 64 GB
+     - 8 GB
+     - 512 GB
+     - 6 TB
    * - Tequila
      - 
      - 
