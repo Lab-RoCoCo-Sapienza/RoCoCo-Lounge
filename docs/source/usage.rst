@@ -12,9 +12,9 @@ Policy
 
 - **Different Resources for different tasks**: Servers are divided into two categories depending on their computational powers.
   
-  - **Proofing Servers**: These servers can be booked only for time-slots in the range of hours (maximum 12 straight hours). You can use these machines to launch tests and small-scale experiments in order to verify the correctness of your code. No extensive training should be performed on these machines.
+  - **Proofing Servers**: These servers can be booked for time-slots in the range of hours (maximum 12 straight hours). You can use these machines to launch tests and small-scale experiments in order to verify the correctness of your code. No extensive training should be performed on these machines.
   
-  - **Training Servers**: These servers can be booked only for time-slots in the range of days (maximum 5 straight days). You can use these machines to launch extensive training sessions and experiments. These machines should always run at maximum computational overload. No proofing should be performed on these machines.
+  - **Training Servers**: These servers can be booked for time-slots in the range of days (maximum 5 straight days). You can use these machines to launch extensive training sessions and experiments. These machines should always run at maximum computational overload. No proofing should be performed on these machines. If by the end of the reservation, no other user has booked the machine, you can extend your reservation for additional (maximum) 5 days.
 
 - **Docker Policy**: It is mandatory to use a Docker container to run your code to ensure maximum virtualization of the resources.
 
