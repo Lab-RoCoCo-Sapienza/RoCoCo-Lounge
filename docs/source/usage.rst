@@ -16,9 +16,9 @@ Policy
   
   - **Training Servers**: These servers can be booked only for time-slots in the range of days (maximum 5 straight days). You can use these machines to launch extensive training sessions and experiments. These machines should always run at maximum computational overload. No proofing should be performed on these machines.
 
-- **Docker policy**: It is mandatory to use a Docker container to run your code to ensure maximum virtualization of the resources.
+- **Docker Policy**: It is mandatory to use a Docker container to run your code to ensure maximum virtualization of the resources.
 
-- **Venv policy**: No virtual environments are allowed on the servers natively, i.e., conda or python venv. You can use them inside your Docker container.
+- **Venv Policy**: No virtual environments are allowed on the servers natively, i.e., conda or python venv. You can use them inside your Docker container.
 
 - **Data Policy**: Do not store any datasets on the server's SSD. Data should only be stored on the HDDs and mounted via volume mappings inside the Docker container.
 
