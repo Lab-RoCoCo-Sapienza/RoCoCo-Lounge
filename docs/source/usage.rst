@@ -4,7 +4,12 @@ This document provides the configuration details to accessing servers available 
 
 Resources
 ---------
-- **Booking Calendar**: The Google Calendar to reserve the machines is available to all the users of the labrococo@diag.uniroma1.it group.
+- **Booking Calendar**: The Google Calendar to reserve the machines is available to all the users of the labrococo@diag.uniroma1.it group. When booking a machine, please follow the following booking naming convention:
+   
+   .. code-block:: bash
+
+      <SURNAME> - <MACHINE-ID> - <START TIME> - <END TIME>
+
 - **Servers IP Addresses**: `Resources <https://rococo-lounge.readthedocs.io/en/latest/resources.html>`_ 
 
 Policy
