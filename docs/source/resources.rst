@@ -68,10 +68,10 @@ Specifications of the Lab RoCoCo Training Resources
      - 
      - 
    * - Gin
-     - 
-     - 
-     - 
-     - 
-     - 
-     - 
-     - 
+     - 192.168.0.43
+     - AMD Ryzen 9 7950X 16-Core
+     - 2x NVIDIA GeForce RTX 4090
+     - 128 GB
+     - 2x 24 GB (NO SLI)
+     - 2 TB
+     - 8 TB
