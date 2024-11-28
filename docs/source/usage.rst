@@ -28,7 +28,7 @@ Policy
 
 - **Venv Policy**: No virtual environments are allowed on the servers natively, i.e., conda or python venv. You can use them inside your Docker container.
 
-- **Data Policy**: Do not store any datasets on the server's SSD. Data should only be stored on the HDDs and mounted via volume mappings inside the Docker container.
+- **Data Policy**: Do not store any datasets on the server's SSD. Data should only be stored on the HDDs and mounted via volume mappings inside the Docker container. If your dataset is relatively small (<100GB), you are allowed to load it on SSD, but be ready to move it on HDD in case of storage shortage.
 
 - **Cordiality and Respect**: Maintain a positive and respectful atmosphere for shared usage.
 
@@ -49,10 +49,9 @@ After a reservation has been made on the calendar, follow these steps to access 
 
    - **Username**: the User Group you have to use while connecting to the server depends on your specific affiliation with LabRoCoCo. 
    If you are a Master Student, use the Grou "user". If you are a PhD Student, use the Group "phd_student". If you are a Professor, use the Group "professor".
-   **NOTE**: It is mandatory to not create new personal users on the servers.
+   **NOTE**: It is forbidden to create new personal users on the servers.
    **Exception**: If there is an European Project or any sort of project that requires multi-role users to cooperate on a single account, please contact the
    LabRoCoCo's Admins to create a new user group that will be used specifically for that project.
-
 
    - **Password**: written inside the LabRoCoCo’s Google Calendar description.
 
