@@ -53,11 +53,10 @@ After a reservation has been made on the calendar, follow these steps to access 
 
    - **Username**: the User Group you have to use while connecting to the server depends on your specific affiliation with LabRoCoCo. 
    If you are a Master Student, use the Grou "user". If you are a PhD Student, use the Group "phd_student". If you are a Professor, use the Group "professor".
-   **NOTE**: It is forbidden to create new personal users on the servers.
-   **Exception**: If there is an European Project or any sort of project that requires multi-role users to cooperate on a single account, please contact the
-   LabRoCoCo's Admins to create a new user group that will be used specifically for that project.
-
    - **Password**: written inside the LabRoCoCo’s Google Calendar description.
+   - **NOTE**: It is forbidden to create new personal users on the servers.
+   - **Exception**: If there is an European Project or any sort of project that requires multi-role users to cooperate on a single account, please contact the
+   LabRoCoCo's Admins to create a new user group that will be used specifically for that project.
 
 2. **Check GPU Usage**: Use the following commands to check GPU and server load:
 
