@@ -8,7 +8,7 @@ Resources
    
    .. code-block:: bash
 
-      <SURNAME> - <MACHINE-ID> - <START TIME> - <END TIME>
+      <SURNAME> - <MACHINE-ID>
 
 - **Servers IP Addresses**: `Resources <https://rococo-lounge.readthedocs.io/en/latest/resources.html>`_ 
 
@@ -19,14 +19,14 @@ Policy
   
   - **Proofing Servers**: These servers can be booked for time-slots in the range of hours (maximum 12 straight hours). You can use these machines to launch tests and small-scale experiments in order to verify the correctness of your code. No extensive training should be performed on these machines.
   
-  - **Training Servers**: These servers can be booked for time-slots in the range of days (maximum 5 straight days). You can use these machines to launch extensive training sessions and experiments. These machines should always run at maximum computational overload. No proofing should be performed on these machines. If by the end of the reservation, no other user has booked the machine, you can extend your reservation for additional (maximum) 5 days.
+  - **Training Servers**: These servers can be booked for time-slots in the range of days (maximum 5 straight days). You can use these machines to launch extensive training sessions and experiments. These machines should always run at maximum computational overload. No proofing should be performed on these machines.
 
   - **Note**: If by the end of the reservation of a Training Server, there are no other reservations, you can reserve it for additional (maximum) 5 days. You can repeat this process until another user books the machine.
 
   - **Particular Case**: In the case of the particular Server "Gin", which is equipped with 2 4090 with 24 GB each and 128 GB of RAM, it is possible for 2 people to simultaneously book the Server and run their experiments in parallel. Each person will have access to 1 GPU and 64 GB of RAM. Since we are not able to restrict the use of the resources automatically, we rely on users that exploit this process to be aware on the computational overhead of their training experiments and to not exceed the resources they have been assigned. When booking the Server "Gin", please follow the following booking naming convention:
    .. code-block:: bash
 
-      <SURNAME> - <MACHINE-ID> - <GPU-ID> - <START TIME> - <END TIME>
+      <SURNAME> - <MACHINE-ID> - <GPU-ID>
    
    The <GPU-ID> is the ID of the GPU you are going to use. It is either "cuda:0" or "cuda:1". Please use in your code the right device name to send tensors to the right GPU. 
 
@@ -53,8 +53,8 @@ After a reservation has been made on the calendar, follow these steps to access 
 
       ssh <yourUserGroup>@<ipServer>
 
-   - **Username**: the User Group you have to use while connecting to the server depends on your specific affiliation with LabRoCoCo. If you are a Master Student, use the Grou "user". If you are a PhD Student, use the Group "phd_student". If you are a Professor, use the Group "professor".
-   - **Password**: written inside the LabRoCoCo’s Google Calendar description.
+   - **Username**: the User Group you have to use while connecting to the server depends on your specific affiliation with LabRoCoCo. If you are a Master Student, use the Group "user". If you are a PhD Student, use the Group "phd_student". If you are a Professor, use the Group "professor".
+   - **Password**: inside the Google Calendar description you are going to find the password for the "user" account. For the remaining groups, ask to one of the admin.
    - **NOTE**: It is forbidden to create new personal users on the servers.
    - **Exception**: If there is an European Project or any sort of project that requires multi-role users to cooperate on a single account, please contact the
    LabRoCoCo's Admins to create a new user group that will be used specifically for that project.
