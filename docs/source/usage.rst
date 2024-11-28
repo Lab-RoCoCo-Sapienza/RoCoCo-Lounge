@@ -21,6 +21,9 @@ Policy
   
   - **Training Servers**: These servers can be booked for time-slots in the range of days (maximum 5 straight days). You can use these machines to launch extensive training sessions and experiments. These machines should always run at maximum computational overload. No proofing should be performed on these machines. If by the end of the reservation, no other user has booked the machine, you can extend your reservation for additional (maximum) 5 days.
 
+  - **Note**: If by the end of the reservation of a Training Server, there are no other reservations, you can reserve it for additional
+      (maximum) 5 days. You can repeat this process until another user books the machine.
+
 - **Docker Policy**: It is mandatory to use a Docker container to run your code to ensure maximum virtualization of the resources.
 
 - **Venv Policy**: No virtual environments are allowed on the servers natively, i.e., conda or python venv. You can use them inside your Docker container.
@@ -33,7 +36,7 @@ Policy
 
 - **Conflict Resolution**: In case of a scheduling conflict, attempt to resolve it privately before taking any actions.
 
-Logging In
+Using the Servers
 ----------
 
 After a reservation has been made on the calendar, follow these steps to access the server:
@@ -42,7 +45,14 @@ After a reservation has been made on the calendar, follow these steps to access 
 
    .. code-block:: bash
 
-      ssh guest@<ipServer>
+      ssh <yourUserGroup>@<ipServer>
+
+   - **Username**: the User Group you have to use while connecting to the server depends on your specific affiliation with LabRoCoCo. 
+   If you are a Master Student, use the Grou "user". If you are a PhD Student, use the Group "phd_student". If you are a Professor, use the Group "professor".
+   **NOTE**: It is mandatory to not create new personal users on the servers.
+   **Exception**: If there is an European Project or any sort of project that requires multi-role users to cooperate on a single account, please contact the
+   LabRoCoCo's Admins to create a new user group that will be used specifically for that project.
+
 
    - **Password**: written inside the LabRoCoCo’s Google Calendar description.
 
@@ -58,7 +68,6 @@ After a reservation has been made on the calendar, follow these steps to access 
    .. code-block:: bash
 
       mkdir /home/guest/SURNAME
-
 
 Contacts
 --------
