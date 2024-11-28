@@ -25,7 +25,9 @@ Policy
 
   - **Particular Case**: In the case of the particular Server "Gin", which is equipped with 2 4090 with 24 GB each and 128 GB of RAM, it is possible for 2 people to simultaneously book the Server and run their experiments in parallel. Each person will have access to 1 GPU and 64 GB of RAM. Since we are not able to restrict the use of the resources automatically, we rely on users that exploit this process to be aware on the computational overhead of their training experiments and to not exceed the resources they have been assigned. When booking the Server "Gin", please follow the following booking naming convention:
    .. code-block:: bash
+
       <SURNAME> - <MACHINE-ID> - <GPU-ID> - <START TIME> - <END TIME>
+   
    The <GPU-ID> is the ID of the GPU you are going to use. It is either "cuda:0" or "cuda:1". Please use in your code the right device name to send tensors to the right GPU. 
 
 - **Docker Policy**: It is mandatory to use a Docker container to run your code to ensure maximum virtualization of the resources.
