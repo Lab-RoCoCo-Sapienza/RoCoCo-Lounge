@@ -53,11 +53,11 @@ After a reservation has been made on the calendar, follow these steps to access 
 
       ssh <yourUserGroup>@<ipServer>
 
-   - **Username**: the User Group you have to use while connecting to the server depends on your specific affiliation with LabRoCoCo. If you are a Master Student, use the Group "user". If you are a PhD Student, use the Group "phd_student". If you are a Professor, use the Group "professor".
+   - **Username**: the User Group you have to use while connecting to the server depends on your specific affiliation with Lab RoCoCo. If you are a Master Student, use the Group "user". If you are a PhD Student, use the Group "phd_student". If you are a Professor, use the Group "professor".
    - **Password**: inside the Google Calendar description you are going to find the password for the "user" account. For the remaining groups, ask to one of the admin.
    - **NOTE**: It is forbidden to create new personal users on the servers.
    - **Exception**: If there is an European Project or any sort of project that requires multi-role users to cooperate on a single account, please contact the
-   LabRoCoCo's Admins to create a new user group that will be used specifically for that project.
+   Lab RoCoCo's Admins to create a new user group that will be used specifically for that project.
 
 2. **Check GPU Usage**: Use the following commands to check GPU and server load:
 

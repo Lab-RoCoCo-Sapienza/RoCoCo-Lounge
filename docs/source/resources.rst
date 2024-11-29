@@ -1,6 +1,6 @@
 Resources 
 ======================
-All the resources available to the Lab RoCoCo's PhD students are listed below.
+All the resources available to the Lab RoCoCo are listed below.
 
 Resources for Proofing
 ----------------------
