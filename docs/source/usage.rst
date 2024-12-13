@@ -69,7 +69,7 @@ After a reservation has been made on the calendar, follow these steps to access 
 
    .. code-block:: bash
 
-      mkdir /home/guest/SURNAME
+      mkdir /home/<yourUserGroup>/SURNAME
 
 Contacts
 --------
