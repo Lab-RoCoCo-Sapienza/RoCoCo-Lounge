@@ -26,14 +26,6 @@ Specifications of the Lab RoCoCo Proofing Resources
      - 2x 8 GB (SLI)
      - 1 TB
      - 4 TB
-   * - Vodka
-     - 192.168.2.37
-     - Intel i9-9900K @ 3.6 GHz x 16
-     - NVIDIA GeForce RTX 2080
-     - 64 GB
-     - 8 GB
-     - 512 GB
-     - 6 TB
    * - Tequila
      - 
      - 
@@ -59,14 +51,6 @@ Specifications of the Lab RoCoCo Training Resources
      - VRAM
      - SSD
      - HDD
-   * - Rum
-     - 
-     - 
-     - 
-     - 
-     - 
-     - 
-     - 
    * - Gin
      - 192.168.110.51
      - AMD Ryzen 9 7950X 16-Core
@@ -75,3 +59,19 @@ Specifications of the Lab RoCoCo Training Resources
      - 2x 24 GB (NO SLI)
      - 2 TB
      - 8 TB
+   * - Vodka
+     - 192.168.2.37
+     - Intel i9-9900K @ 3.6 GHz x 16
+     - NVIDIA GeForce RTX 5080
+     - 64 GB
+     - 24 GB
+     - 512 GB
+     - 6 TB
+   * - Rum
+     - 
+     - 
+     - 
+     - 
+     - 
+     - 
+     - 
