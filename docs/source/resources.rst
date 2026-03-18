@@ -27,13 +27,13 @@ Specifications of the Lab RoCoCo Proofing Resources
      - 1 TB
      - 4 TB
    * - Tequila
-     - 
-     - 
-     - 
-     - 
-     - 
-     - 
-     - 
+     - 192.168.1.133
+     - Intel i9-10900KF @ 3.7 GHz x 20
+     - NVIDIA GeForce RTX 3070
+     - 64 GB
+     - 8 GB
+     - 2 TB
+     - 6 TB
 
 Resources for Training
 ----------------------
