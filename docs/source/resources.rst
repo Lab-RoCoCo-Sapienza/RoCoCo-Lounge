@@ -64,14 +64,14 @@ Specifications of the Lab RoCoCo Training Resources
      - Intel i9-9900K @ 3.6 GHz x 16
      - NVIDIA GeForce RTX 5080
      - 64 GB
-     - 24 GB
-     - 512 GB
+     - 16 GB
+     - 1 TB
      - 6 TB
    * - Rum
-     - 
-     - 
-     - 
-     - 
-     - 
-     - 
-     - 
+     - 192.168.2.75
+     - Intel i9-9900K @ 3.6 GHz x 16
+     - NVIDIA GeForce RTX 5080
+     - 64 GB
+     - 16 GB
+     - 1 TB
+     - 6 TB
